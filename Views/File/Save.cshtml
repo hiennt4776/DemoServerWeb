@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Save";
+}
+@using (Html.BeginForm("Save", "File", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        <label for="file">Select a file to upload:</label>
+        <input type="file" name="file" id="file" />
+    </div>
+    <input type="submit" value="Upload" />
+}
+<br />
+<br />
+<a href="@Url.Action("Download", "File", new { fileName = "version.xml" })">Download</a>
+<br />
+<a href="@Url.Action("Download", "File", new { fileName = "DemoUpdatev2.0.0.0.zip" })">Download exe</a>
+<br />
+<a href="@Url.Action("Download", "File", new { fileName = "DemoUpdatev2.0.0.0.msi" })">Download msi</a>
+
+
+
+<br />
+<a href="@Url.Action("Download", "File", new { fileName = "Demo.zip" })">Download Demo.zip</a>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<version>
+	<latest>2.0.0.0</latest>
+	<releaseDate>2023-02-08</releaseDate>
+	<url>https://localhost:44385/File/Download?fileName=DemoUpdatev2.0.0.0.zip</url>
+	<fileName>DemoUpdatev2.0.0.0.zip</fileName>
+	<newFeatures>
+		<feature>New button added</feature>
+	</newFeatures>
+	<bugFixes>
+		<fix>Fixed a bug with the update mechanism</fix>
+	</bugFixes>
+</version>
